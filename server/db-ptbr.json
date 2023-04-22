@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "description": "Na volta a gente compra!",
+      "author": "Mãe",
+      "case": "case2",
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "description": "Vc faz TI? Conserta meu celular!",
+      "author": "Grupo da família",
+      "case": "case1",
+      "favorite": true
+    },
+    {
+      "description": "Já tentou reiniciar o roteador?",
+      "author": "Pessoa da operadora",
+      "case": "case3",
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "description": "Da vida reclama, mas sem ela não vive!",
+      "author": "Mestre Yoda",
+      "case": "case1",
+      "favorite": true,
+      "id": 6
+    },
+    {
+      "description": "Na minha máquina funciona!",
+      "author": "Dev",
+      "case": "case3",
+      "favorite": true,
+      "id": 7
+    },
+    {
+      "id": 9,
+      "description": "Esse é de laranja que parece de limão, mas tem gosto de tamarindo!",
+      "author": "Chaves",
+      "case": "case1",
+      "favorite": true
+    },
+    {
+      "id": 13,
+      "description": "Melhor professor, o fracasso é!",
+      "author": "Mestre Yoda",
+      "case": "case2",
+      "favorite": true
+    },
+    {
+      "description": "Você não é todo mundo!",
+      "author": "Mãe",
+      "case": "case2",
+      "favorite": false,
+      "id": 14
+    },
+    {
+      "description": "Foi sem querer querendo!",
+      "author": "Chaves",
+      "case": "case3",
+      "favorite": false,
+      "id": 15
+    },
+    {
+      "id": 16,
+      "description": "Em casa a gente conversa!",
+      "author": "Mãe",
+      "case": "case3",
+      "favorite": true
+    },
+    {
+      "id": 17,
+      "description": "Que a força esteja com você!",
+      "author": "Mestre Yoda",
+      "case": "case1",
+      "favorite": true
+    },
+    {
+      "description": "Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Diuretics paradis num copo é motivis de denguis. Atirei o pau no gatis, per gatis num morreus. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Sapien in monti palavris qui num significa nadis i pareci latim.",
+      "author": "Mussum",
+      "case": "case3",
+      "favorite": false,
+      "id": 18
+    },
+    {
+      "description": "Por que a pessoa dev não morre afogada? Porque ela usa ponto flutuante.",
+      "author": "Grupo da família",
+      "case": "case1",
+      "favorite": false,
+      "id": 19
+    },
+    {
+      "id": 20,
+      "description": "Leva o casaco que vai esfriar!",
+      "author": "Mãe",
+      "case": "case2",
+      "favorite": false
+    },
+    {
+      "id": 21,
+      "description": "Sou poliglota; falo português, inglês e JavaScript!",
+      "author": "Dev",
+      "case": "case1",
+      "favorite": false
+    },
+    {
+      "id": 22,
+      "description": "Não faça drama, faça café! :)",
+      "author": "Dev",
+      "case": "case2",
+      "favorite": false
+    },
+    {
+      "description": "Conserta minha impressora?",
+      "author": "Grupo da família",
+      "case": "case3",
+      "favorite": false,
+      "id": 23
+    },
+    {
+      "description": "Não fez mais que a sua obrigação!",
+      "author": "Mãe",
+      "case": "case1",
+      "favorite": false,
+      "id": 24
+    },
+    {
+      "description": "Por que meu código funcionou?",
+      "author": "Dev ",
+      "case": "case1",
+      "favorite": false,
+      "id": 25
+    },
+    {
+      "description": "A vingança nunca é plenis... mata a alma e a envenenis...",
+      "author": "Seu Madruguis",
+      "case": "case2",
+      "favorite": false,
+      "id": 26
+    },
+    {
+      "description": "Resolver o bug não consegue? Esfriar a cabeça você deve.",
+      "author": "Mestre Yoda",
+      "case": "case1",
+      "favorite": false,
+      "id": 27
+    },
+    {
+      "description": "Se eu for aí e achar, eu esfrego na sua cara!",
+      "author": "Mãe",
+      "case": "case3",
+      "favorite": false,
+      "id": 28
+    },
+    {
+      "description": "Eu vou contar até três! ",
+      "author": "Mãe",
+      "case": "case2",
+      "favorite": false,
+      "id": 29
+    }
+  ]
+}
