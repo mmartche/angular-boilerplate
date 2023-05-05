@@ -1,0 +1,24 @@
+<div class="form-label-group">
+    <input #input
+           (blur)="onTouched()"
+           [disabled]="disabled"
+           [placeholder]="placeholder"
+           [type]="type"
+           (ngModel)="value"
+           (ngModelChange)="onValueChange($event)"
+           name="input"
+           class="form-control">
+    <div class="d-flex">
+      <span class="v">
+        $
+      </span>
+  
+      <label class="mr-auto">{{label}}
+        <span *ngIf="isRequired" class="required">*</span>
+      </label>
+  
+      <span *ngIf="controlDir && !controlDir.control.valid
+       && controlDir.control.touched" class="error">{{errorMsg}}</span>
+    </div>
+  </div>
+  

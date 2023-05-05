@@ -1,165 +1,158 @@
 {
-    "data": [
-        {
-            "id": 2,
-            "description": "On the way back we buy!",
-            "author": "Mother",
-            "case": "case2",
-            "favorite": true
-        },
-        {
-            "id": 4,
-            "description": "Do you do IT? Fix my phone!",
-            "author": "Family group",
-            "case": "case1",
-            "favorite": true
-        },
-        {
-            "description": "Have you tried restarting the router?",
-            "author": "Operator person",
-            "case": "case3",
-            "favorite": true,
-            "id": 5
-        },
-        {
-            "description": "You complain about life, but you can't live without it!",
-            "author": "Master Yoda",
-            "case": "case1",
-            "favorite": true,
-            "id": 6
-        },
-        {
-            "description": "On my machine it works!",
-            "author": "Dev",
-            "case": "case3",
-            "favorite": true,
-            "id": 7
-        },
-        {
-            "id": 9,
-            "description": "This one is an orange one that looks like lemon but tastes like tamarind!",
-            "author": "Keys",
-            "case": "case1",
-            "favorite": true
-        },
-        {
-            "id": 13,
-            "description": "Best teacher, failure is!",
-            "author": "Master Yoda",
-            "case": "case2",
-            "favorite": true
-        },
-        {
-            "description": "You are not everyone!",
-            "author": "Mother",
-            "case": "case2",
-            "favorite": false,
-            "id": 14
-        },
-        {
-            "description": "It was by accident!",
-            "author": "Keys",
-            "case": "case3",
-            "favorite": false,
-            "id": 15
-        },
-        {
-            "id": 16,
-            "description": "At home we talk!",
-            "author": "Mother",
-            "case": "case3",
-            "favorite": true
-        },
-        {
-            "id": 17,
-            "description": "May the force be with you!",
-            "author": "Master Yoda",
-            "case": "case1",
-            "favorite": true
-        },
-        {
-            "description": "Mussum Ipsum, cacilds vidis liter abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Diuretics paradis in a glass is motivis de denguis. I threw the stick in the cattery, per cattery in a mortes. Interestentiss quisso pudia ce bolis recipe, more bolis i num gostis. Sapien in monti palavris qui num significa nadis i pareci latin.",
-            "author": "Mussum",
-            "case": "case3",
-            "favorite": false,
-            "id": 18
-        },
-        {
-            "description": "Why doesn't the dev person drown? Because she uses floating point.",
-            "author": "Family group",
-            "case": "case1",
-            "favorite": false,
-            "id": 19
-        },
-        {
-            "id": 20,
-            "description": "Take your coat, it's going to get cold!",
-            "author": "Mother",
-            "case": "case2",
-            "favorite": false
-        },
-        {
-            "id": 21,
-            "description": "I'm polyglot; I speak Portuguese, English and JavaScript!",
-            "author": "Dev",
-            "case": "case1",
-            "favorite": false
-        },
-        {
-            "id": 22,
-            "description": "Don't make a drama, make coffee! :)",
-            "author": "Dev",
-            "case": "case2",
-            "favorite": false
-        },
-        {
-            "description": "Fix my printer?",
-            "author": "Family group",
-            "case": "case3",
-            "favorite": false,
-            "id": 23
-        },
-        {
-            "description": "You did nothing but your duty!",
-            "author": "Mother",
-            "case": "case1",
-            "favorite": false,
-            "id": 24
-        },
-        {
-            "description": "Why did my code work?",
-            "author": "Dev",
-            "case": "case1",
-            "favorite": false,
-            "id": 25
-        },
-        {
-            "description": "Revenge is never complete... it kills the soul and poisons it...",
-            "author": "Your Madruguis",
-            "case": "case2",
-            "favorite": false,
-            "id": 26
-        },
-        {
-            "description": "Solve the bug can't you? Cool down you must.",
-            "author": "Master Yoda",
-            "case": "case1",
-            "favorite": false,
-            "id": 27
-        },
-        {
-            "description": "If I go there and find it, I'll rub it in your face!",
-            "author": "Mother",
-            "case": "case3",
-            "favorite": false,
-            "id": 28
-        },
-        {
-            "description": "I'm going to count to three!",
-            "author": "Mother",
-            "case": "case2",
-            "favorite": false,
-            "id": 29
-        }
-    ]
+  "thoughts": [
+    {
+      "id": 2,
+      "description": "On the way back we buy!",
+      "author": "Mother",
+      "case": "case2",
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "description": "Do you do IT? Fix my phone!",
+      "author": "Family group",
+      "case": "case1",
+      "favorite": true
+    },
+    {
+      "description": "Have you tried restarting the router?",
+      "author": "Operator person",
+      "case": "case3",
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "description": "On my machine it works!",
+      "author": "Dev",
+      "case": "case3",
+      "favorite": true,
+      "id": 7
+    },
+    {
+      "id": 9,
+      "description": "This one is an orange one that looks like lemon but tastes like tamarind!",
+      "author": "Keys",
+      "case": "case1",
+      "favorite": true
+    },
+    {
+      "id": 13,
+      "description": "Best teacher, failure is!",
+      "author": "Master Yoda",
+      "case": "case2",
+      "favorite": true
+    },
+    {
+      "description": "You are not everyone!",
+      "author": "Mother",
+      "case": "case2",
+      "favorite": false,
+      "id": 14
+    },
+    {
+      "description": "It was by accident!",
+      "author": "Keys",
+      "case": "case3",
+      "favorite": false,
+      "id": 15
+    },
+    {
+      "id": 16,
+      "description": "At home we talk!",
+      "author": "Mother",
+      "case": "case3",
+      "favorite": true
+    },
+    {
+      "id": 17,
+      "description": "May the force be with you!",
+      "author": "Master Yoda",
+      "case": "case1",
+      "favorite": true
+    },
+    {
+      "description": "Mussum Ipsum, cacilds vidis liter abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Diuretics paradis in a glass is motivis de denguis. I threw the stick in the cattery, per cattery in a mortes. Interestentiss quisso pudia ce bolis recipe, more bolis i num gostis. Sapien in monti palavris qui num significa nadis i pareci latin.",
+      "author": "Mussum",
+      "case": "case3",
+      "favorite": false,
+      "id": 18
+    },
+    {
+      "description": "Why doesn't the dev person drown? Because she uses floating point.",
+      "author": "Family group",
+      "case": "case1",
+      "favorite": false,
+      "id": 19
+    },
+    {
+      "id": 20,
+      "description": "Take your coat, it's going to get cold!",
+      "author": "Mother",
+      "case": "case2",
+      "favorite": false
+    },
+    {
+      "id": 21,
+      "description": "I'm polyglot; I speak Portuguese, English and JavaScript!",
+      "author": "Dev",
+      "case": "case1",
+      "favorite": false
+    },
+    {
+      "id": 22,
+      "description": "Don't make a drama, make coffee! :)",
+      "author": "Dev",
+      "case": "case2",
+      "favorite": false
+    },
+    {
+      "description": "Fix my printer?",
+      "author": "Family group",
+      "case": "case3",
+      "favorite": false,
+      "id": 23
+    },
+    {
+      "description": "You did nothing but your duty!",
+      "author": "Mother",
+      "case": "case1",
+      "favorite": false,
+      "id": 24
+    },
+    {
+      "description": "Why did my code work?",
+      "author": "Dev",
+      "case": "case1",
+      "favorite": false,
+      "id": 25
+    },
+    {
+      "description": "Revenge is never complete... it kills the soul and poisons it...",
+      "author": "Your Madruguis",
+      "case": "case2",
+      "favorite": false,
+      "id": 26
+    },
+    {
+      "description": "Solve the bug can't you? Cool down you must.",
+      "author": "Master Yoda",
+      "case": "case1",
+      "favorite": false,
+      "id": 27
+    },
+    {
+      "description": "If I go there and find it, I'll rub it in your face!",
+      "author": "Mother",
+      "case": "case3",
+      "favorite": false,
+      "id": 28
+    },
+    {
+      "description": "I'm going to count to three!",
+      "author": "Mother",
+      "case": "case2",
+      "favorite": false,
+      "id": 29
+    }
+  ]
 }

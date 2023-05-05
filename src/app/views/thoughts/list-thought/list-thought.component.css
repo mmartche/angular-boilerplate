@@ -1,0 +1,245 @@
+.list-thought {
+  overflow: hidden;
+}
+
+.list-thought .list-item {
+  float: left;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+header {
+  color: #6C63FF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 76px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: 'Poppins', sans-serif;
+}
+
+section input {
+  width: 588px;
+  height: 56px;
+  border: 2px solid #6C63FF;
+  border-radius: 10px;
+  outline: 0;
+  box-sizing: border-box;
+  top: 220px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 4.08%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+}
+
+section p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8B8B8B;
+}
+
+.resultados {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8B8B8B;
+}
+
+.message-erro {
+  color: #6C63FF;
+}
+
+input[type='search']:focus {
+  background-image: none;
+  outline: none;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+::-webkit-search-cancel-button,
+::-webkit-search-results-button,
+::-webkit-search-results-decoration {
+  display: none;
+}
+
+section button {
+  border: none;
+  text-decoration: none;
+  background: none;
+  position: relative;
+  top: 0.3rem;
+  right: 50px;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+}
+
+.teste {
+  cursor: auto;
+  background-color: orange;
+  font-family: "Poppins";
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container-card {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.imagens {
+  display: flex;
+}
+
+.ilustracao {
+  margin-top: 72px;
+  margin-left: 130px;
+  margin-right: 64px;
+}
+
+.titulo {
+  margin-top: 72px;
+  margin-left: 64px;
+}
+
+
+
+/* ------------------------------------------- */
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buttons button {
+  margin: 10px;
+  min-width: 200px;
+  min-height: 50px;
+  border: 2px solid #6C63FF;
+  border-radius: 10px;
+  outline: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 4.08%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.mural {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.sem-pensamentos {
+  text-align: center;
+  padding: 2rem 0 5rem;
+}
+
+.search-pensamentos {
+  background: #F8F9FE;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 44px;
+  left: 421px;
+  top: 490px;
+  width: 510px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.search-pensamentos img {
+  padding-right: 15px;
+}
+
+input::placeholder {
+  color: #C4C4C4;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
+  left: 437px;
+  top: 537px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  border: none;
+  outline: 0;
+  text-decoration: none;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 216px) {
+  .search-pensamentos {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 396px) {
+  .search-pensamentos {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .search-pensamentos {
+    width: 510px;
+  }
+}

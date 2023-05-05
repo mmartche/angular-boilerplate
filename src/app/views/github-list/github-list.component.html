@@ -1,0 +1,11 @@
+<p>github-list works!</p>
+<form>
+    <input type="search" placeholder="find a user" [formControl]="search" name="search">
+</form>
+
+<ul *ngIf="usersList$ | async as users, else init">
+    <li *ngFor="let user of users">{{ user.login }}</li>
+</ul>
+<ng-template #init>
+    <div>No results</div>
+</ng-template>

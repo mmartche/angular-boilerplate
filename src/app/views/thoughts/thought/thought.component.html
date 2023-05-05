@@ -1,0 +1,17 @@
+<div class="thought {{ thought.case }} ff-roboto-mono" [ngClass]="widthThought()">
+  <img src="/assets/images/{{ thought.case }}.png" alt="Quotes">
+  <p class="description">{{ thought.description }}</p>
+  <p class="author"><b>{{ thought.author }}</b></p>
+  <div class="actions">
+    <button class="button-favorite" (click)="updateFavorites()">
+      <img src="/assets/images/icon-favorite-{{ changeIconFavorite() }}.png"
+      alt="favorite {{ changeIconFavorite() }}">
+    </button>
+    <button class="button-edit">
+      <img src="/assets/images/icon-edit.png" routerLink="/thoughts/editThought/{{thought.id}}" alt="edit icon">
+    </button>
+    <button class="button-delete" routerLink="/thoughts/deleteThought/{{thought.id}}">
+      <img src="/assets/images/icon-delete.png" alt="delete icon">
+    </button>
+  </div>
+</div>
